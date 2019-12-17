@@ -1,10 +1,11 @@
 body {
 	margin: 0;
+	background-color: #e1e1e1;
 }
 
-.navbar {
+nav {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid #e1e1e1;
+	border-bottom: 1px solid #d6d6d6;
 	padding: 10px 0;
 }
 
@@ -33,4 +34,23 @@ body {
 
 .navbar--links ul li {
 	display: inline;
+}
+
+.body--content {
+	width: 960px;
+	margin: auto; 
+	background-color: #FFFFFF;
+	border: 1px solid #d6d6d6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #FFFFFF;
+	border-top: 1px solid #d6d6d6;
+}
+
+.footer--content {
+	width: 960px;
+	margin: auto;
 }
