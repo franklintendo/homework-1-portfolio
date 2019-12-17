@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 10px 0;
+}
+
+.navbar--links {
+
+}
+
+.navbar--links ul {
+	display: inline;
+}
+
+.navbar--links ul li {
+	display: inline;
+}
