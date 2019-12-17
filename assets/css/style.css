@@ -8,12 +8,27 @@ body {
 	padding: 10px 0;
 }
 
-.navbar--links {
+.navbar--content {
+	width: 960px;
+	margin: auto; 
+	display: flex; 
+	flex-direction: row;
+}
 
+.navbar--name {
+	display: inline;
+}
+
+.navbar--links {
+	display: inline;
+	right: 0;
+	flex-grow: 2; 
+	text-align: right;
 }
 
 .navbar--links ul {
 	display: inline;
+	padding-left: 0;
 }
 
 .navbar--links ul li {
