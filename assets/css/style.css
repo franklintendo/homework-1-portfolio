@@ -16,8 +16,9 @@ body {
 }
 
 nav {
-	background-color: #FFFFFF;
-	border-bottom: 1px solid #cccccc;
+	/*background-color: #FFFFFF;*/
+	background-color: #F6F6F6;
+	border-bottom: 1px solid #e1e1e1;
 	/*padding: 10px 0;*/
 	position: fixed;
     width: 100%;
@@ -45,6 +46,12 @@ nav a:hover {
 	background-color: #4aaaa5;
 	color: #FFFFFF;
 	padding: 20px 30px;
+}
+
+.navbar--name h1 {
+	margin: 0;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 16px;
 }
 
 .navbar--links {
@@ -85,10 +92,24 @@ nav a:hover {
 	margin: auto; 
 	background-color: #FFFFFF;
 	border: 1px solid #dddddd;
-	margin-top: 70px;
-	margin-bottom: 10px;
+	margin-top: 80px;
+	margin-bottom: 20px;
 	box-sizing: border-box;
 	padding: 15px;
+}
+
+.body--title h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 18px;
+	color: #4aaaa5;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 5px;
+}
+
+.portrait {
+	margin: 0 25px 25px 0;
+	width: 200px;
+	float: left;
 }
 
 footer {
