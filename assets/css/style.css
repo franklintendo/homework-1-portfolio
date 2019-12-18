@@ -22,6 +22,7 @@ nav {
 	/*padding: 10px 0;*/
 	position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 nav a {
@@ -32,6 +33,10 @@ nav a {
 
 nav a:hover {
 	color: #4aaaa5;
+}
+
+h3 {
+	font-size: 16px;
 }
 
 .navbar--content {
@@ -106,10 +111,81 @@ nav a:hover {
 	padding-bottom: 5px;
 }
 
+.body--title h2 em{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
 .portrait {
 	margin: 0 25px 25px 0;
 	width: 200px;
 	float: left;
+}
+
+.portfolio--thumb {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #4aaaa5;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.portfolio--thumb.will {
+	background-image: url('../images/thumbs/will-1.jpg');
+	background-size: 200px 163px;
+}
+
+.portfolio--thumb.will:hover {
+	background-image: url('../images/thumbs/will-2.jpg');
+}
+
+.portfolio--thumb.meryl {
+	background-image: url('../images/thumbs/meryl-1.jpg');
+	background-size: 200px 163px;
+}
+
+.portfolio--thumb.meryl:hover {
+	background-image: url('../images/thumbs/meryl-2.jpg');
+}
+
+.portfolio--thumb.gary {
+	background-image: url('../images/thumbs/gary-1.jpg');
+	background-size: 200px 163px;
+}
+
+.portfolio--thumb.gary:hover {
+	background-image: url('../images/thumbs/gary-2.jpg');
+}
+
+.portfolio--thumb.tom {
+	background-image: url('../images/thumbs/tom-1.jpg');
+	background-size: 200px 163px;
+}
+
+.portfolio--thumb.tom:hover {
+	background-image: url('../images/thumbs/tom-2.jpg');
+}
+
+.portfolio--thumb.shamwow {
+	background-image: url('../images/thumbs/shamwow-1.jpg');
+	background-size: 200px 163px;
+}
+
+.portfolio--thumb.shamwow:hover {
+	background-image: url('../images/thumbs/shamwow-2.jpg');
+}
+
+.portfolio--text {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #666;
+	color: #FFFFFF;
+	padding: 15px 10px 10px 10px;
+	box-sizing: border-box;
 }
 
 footer {
