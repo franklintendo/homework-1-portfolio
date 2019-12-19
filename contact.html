@@ -23,12 +23,17 @@
 					<div class="body--title">
 						<h2>Contact</h2>
 					</div>
-					<form id="email-form" action="/send" method="post">
-						<label for="name">Name</label>
-						<input type="text" name="name" placeholder="Enter Your Name">
-						<input type="text" name="email" placeholder="Enter Your Email">
-						<textarea name="message" rows="10" cols="30"></textarea>
-						<button type="submit">Submit</button>
+					<form class="contact--form" action="/send" method="post">
+						<label class="contact--label" for="name">Name</label>
+						<input class="contact--input" type="text" name="name" placeholder="Enter Your Name">
+
+						<label class="contact--label" for="name">Email</label>
+						<input class="contact--input" type="text" name="email" placeholder="Enter Your Email">
+
+						<label class="contact--label" for="name">Comment</label>
+						<textarea class="contact--message" name="message" rows="10" cols="30"></textarea>
+
+						<button class="contact--button" type="submit">Submit</button>
 					</form>
 				</div>
 			</div>
